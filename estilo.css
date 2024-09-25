@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 75%;
+    margin: auto;
+}
+
+.caja2 img{
+    width: 250px;
+    height: 150px;
+    margin: 20px;
+}
+p{
+    text-align: justify;
+    width: 700px;
+}
+.caja3 img{
+    width: 250px;
+    height: 600px;
+}
+.caja3{
+    height: 600px;
+}
+h2{
+    text-align: center;
+    border: 1px solid black;
+    align-items: center;
+    padding: 10px;
+}
+header{
+    padding-top: 50px;
+}
+.caja1{
+    padding-top: 20px;
+}
+.caja2{
+    padding: 20px;
+}
+section{
+    display: grid;
+    gap: 1.6em;
+    margin: 1.6em auto;
+    grid-template-columns: repeat(2,1fr);
+}
+section .caja3,
+section .caja1,
+section .caja2{
+    border: 1px solid black;
+}
+section .caja2{
+    grid-column:  1/2;
+}
+section .caja3{
+    grid-column: 3/4;
+}
+
